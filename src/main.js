@@ -4,8 +4,10 @@ import router from './router'
 import store from './store'
 import 'lib-flexible/flexible.js'
 import axios from 'axios'
-import { Button } from 'vant';
-Vue.use(Button);
+import { Lazyload } from 'vant';
+Vue.use(Lazyload);
+import { List } from 'vant';
+Vue.use(List);
 
 axios.defaults.baseURL="https://gank.io/api/v2/";
 Vue.prototype.axios=axios;
