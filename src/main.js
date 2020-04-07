@@ -11,6 +11,9 @@ Vue.use(List);
 /* 下拉刷新 */
 import { PullRefresh } from "vant";
 Vue.use(PullRefresh);
+/* header导航栏 */
+import { NavBar } from "vant";
+Vue.use(NavBar);
 
 axios.defaults.baseURL = "https://gank.io/api/v2/";
 Vue.prototype.axios = axios;
